@@ -11,7 +11,7 @@
 
 示例
 
-```
+```cpp
 int main() {
     Singer s = {"abd",23};
     Friend f1{"my best friend", {"rocker", 18}};
