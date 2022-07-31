@@ -32,3 +32,8 @@ int main() {
 ```
 p1 json:{"name_":"p1","age_":4,"address_":{"country_":"china","city_":"beijing","street_":"wangjing","neighbors_":[{"name_":"p2","age_":3,"address_":{"country_":"china","city_":"shanghai","street_":"putuo","neighbors_":[]},"friends_":[]}]},"friends_":[{"relation_":"my best friend","singer_":{"type_":"rocker","age_":18}},{"relation_":"new friend","singer_":{"type_":"little girl","age_":0}},{"relation_":"third friend","singer_":{"type_":"","age_":3}}]}
 ```
+
+参考资料
+1. [android Parcelable实现](https://developer.android.com/reference/android/os/Parcelable)
+2. 腾讯内部类protocol buff协议jce的实现
+3. [C++/json序列化](https://zhuanlan.zhihu.com/p/57974752)
