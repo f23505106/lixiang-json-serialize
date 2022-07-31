@@ -1,4 +1,5 @@
 # 使用rapidjson，c++对象序列化到json和反序列化的小程序
+![build&test](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 * 暂时只实现了int std::string std::vector基本数据类型
 * 自定义对象通过实现Serializable的ToJson和ToValue实现对序列化的支持
