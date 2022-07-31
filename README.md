@@ -3,7 +3,7 @@
 * 暂时只实现了int std::string std::vector基本数据类型
 * 自定义对象通过实现Serializable的ToJson和ToValue实现对序列化的支持
 * 暂未实现对继承，多重继承的支持
-* 性能，代码逻辑未做完全优化
+* 异常处理并未完全覆盖，性能，代码逻辑未做完全优化
 
 编译方法：
 1. clone代码库，注意子工程rapidjson也需要更新
