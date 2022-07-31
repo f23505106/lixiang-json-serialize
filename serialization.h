@@ -84,7 +84,7 @@ inline rapidjson::Value ToJson(const std::vector<T>& obj,rapidjson::Document::Al
  * */
 struct Serializable{
     public:
-        static constexpr char* kParentKey = "parent";
+        //static constexpr char* kParentKey = "parent";
         virtual rapidjson::Value ToJson(rapidjson::Document::AllocatorType& allocator) const = 0;
         virtual bool ToValue(const rapidjson::Value &root) = 0;
 };
